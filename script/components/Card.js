@@ -23,7 +23,7 @@ export class Card extends Node {
         let cover = new Node();
         cover.width = 100;
         cover.height = 100;
-        // cover.elm.style.backgroundColor = "orange";
+        cover.elm.style.backgroundColor = "orange";
         cover.elm.style.border = "solid 1px blue";
         this.cover = cover;
         this.addChild(this.cover);
